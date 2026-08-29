@@ -1,12 +1,18 @@
-# OIBSIP – Task 1: Exploratory Data Analysis
+# OIBSIP – Data Analytics Internship Projects
 
-## Project Overview
+This repository contains the projects completed as part of my Data Analytics Internship at OASIS INFOBYTE.
+
+---
+
+## Task 1: Exploratory Data Analysis
+
+### Project Overview
 
 This project focuses on Exploratory Data Analysis (EDA) of a retail sales dataset. The objective is to understand sales patterns, customer behavior, product category performance, and relationships between numerical variables.
 
-## Dataset
+### Dataset
 
-The dataset contains 1000 retail transactions with the following columns:
+The dataset contains retail transaction records with information such as:
 
 - Transaction ID
 - Date
@@ -18,7 +24,7 @@ The dataset contains 1000 retail transactions with the following columns:
 - Price per Unit
 - Total Amount
 
-## Tools & Technologies
+### Tools & Technologies
 
 - Python
 - Pandas
@@ -28,9 +34,7 @@ The dataset contains 1000 retail transactions with the following columns:
 - Google Colab
 - Jupyter Notebook
 
-## Analysis Performed
-
-The following analysis was performed:
+### Analysis Performed
 
 1. Data loading and inspection
 2. Data structure and data type analysis
@@ -40,33 +44,77 @@ The following analysis was performed:
 6. Product category sales analysis
 7. Gender-wise sales analysis
 8. Age-group sales analysis
-9. Quantity sold by product category
-10. Correlation analysis
-11. Data visualizations
-12. Business recommendations
+9. Correlation analysis
+10. Data visualizations
 
-## Key Findings
+### Task 1 Files
 
-- Electronics generated the highest total sales among the three product categories.
-- Clothing had the highest quantity sold.
-- Female customers generated higher sales than male customers.
-- The 46–55 age group generated the highest sales among the analyzed age groups.
-- Price per Unit has a strong positive relationship with Total Amount (0.85).
-- Quantity has a moderate positive relationship with Total Amount (0.37).
-- Price per Unit and Quantity have almost no correlation (0.02).
+- `eda_data_set_task_1.ipynb`
+- `retail_sales_dataset.csv`
 
-## Business Recommendations
+---
 
-- Focus on Electronics by maintaining sufficient stock and promoting best-selling products.
-- Improve Clothing sales value through promotions, discounts, and bundle offers.
-- Target the 46–55 age group and female customers with relevant marketing campaigns and offers.
-- Use pricing and quantity insights to improve sales planning.
+## Task 2: Customer Segmentation Analysis
 
-## Project Files
+### Project Overview
 
-- `eda_data_set_task_1.ipynb` – Complete Python analysis with visualizations and outputs.
-- `retail_sales_dataset.csv` – Dataset used for the analysis.
+This project focuses on segmenting e-commerce customers based on their purchasing behaviour. The objective is to identify different customer groups and support targeted marketing strategies.
+
+### Dataset
+
+The dataset contains retail transaction information including:
+
+- Invoice Number
+- Stock Code
+- Description
+- Quantity
+- Invoice Date
+- Unit Price
+- Customer ID
+- Country
+
+### Tools & Technologies
+
+- Python
+- Pandas
+- Scikit-learn
+- K-Means Clustering
+- StandardScaler
+- Matplotlib
+- Seaborn
+- Google Colab
+- Jupyter Notebook
+
+### Analysis Performed
+
+1. Dataset loading and inspection
+2. Customer purchasing statistics
+3. Feature selection
+4. Data standardization using StandardScaler
+5. Elbow Method for selecting the number of clusters
+6. K-Means clustering
+7. Customer segment profiling
+8. Cluster scatter plots
+9. Customer count by segment
+10. Marketing recommendations
+11. Interpretation and conclusion
+
+### Customer Segments
+
+The analysis identified three customer segments:
+
+- **High-Value Customers** – 90 customers
+- **Medium-Value Customers** – 168 customers
+- **Low-Value Customers** – 191 customers
+
+### Task 2 File
+
+- `csa_data_set_task_2.ipynb`
+
+---
 
 ## Conclusion
 
-The EDA provides useful insights into customer behavior, product performance, and sales relationships. These findings can help the business improve inventory planning, marketing strategies, and sales performance.
+Both projects demonstrate the application of Python-based data analytics techniques to understand sales data and customer purchasing behaviour.
+
+The analysis provides useful insights that can support business decision-making and targeted marketing strategies.
