@@ -18,9 +18,11 @@ This repository contains the tasks completed as part of my Data Analytics Intern
 ## Task 1 - Exploratory Data Analysis
 
 ### Objective
+
 To perform Exploratory Data Analysis (EDA) on a retail sales dataset and identify useful patterns and insights.
 
 ### Work Performed
+
 - Data inspection and cleaning
 - Descriptive statistics
 - Category-wise analysis
@@ -30,6 +32,7 @@ To perform Exploratory Data Analysis (EDA) on a retail sales dataset and identif
 - Data visualization
 
 ### Files
+
 - `eda_data_set_task_1.ipynb`
 - `retail_sales_dataset.csv`
 
@@ -38,9 +41,11 @@ To perform Exploratory Data Analysis (EDA) on a retail sales dataset and identif
 ## Task 2 - Customer Segmentation
 
 ### Objective
+
 To analyze customer purchasing behavior and identify meaningful customer segments.
 
 ### Work Performed
+
 - Data loading and inspection
 - Data cleaning
 - Exploratory Data Analysis
@@ -50,6 +55,7 @@ To analyze customer purchasing behavior and identify meaningful customer segment
 - Data visualization
 
 ### Files
+
 - `csa_data_set_task_2.ipynb`
 - `Online_Retail_1200.xlsx`
 
@@ -58,29 +64,39 @@ To analyze customer purchasing behavior and identify meaningful customer segment
 ## Task 3 - Data Cleaning
 
 ### Objective
+
 To clean and transform a messy retail sales dataset into a structured and analysis-ready dataset.
 
 ### Work Performed
+
+- Data inspection
 - Missing value handling
 - Duplicate checking
 - Data type correction
+- Inconsistency checking
 - Outlier detection
 - Data normalization
 - Feature engineering
 - Before and after data comparison
 
 ### Final Dataset
+
 - 12,575 records
 - 18 columns
 - 0 missing values
 - 0 duplicate records
 
 ### Files
-- `Task_3_Data_Cleaning.ipynb`
-- `retail_store_sales_cleaned.csv`
+
+- `Cleaning_Data_task_3.ipynb`
+- `retail_store_sales task 3.csv` - Original messy dataset
+- `retail_store_sales_cleaned.csv` - Cleaned and analysis-ready dataset
+- `README.md` - Task documentation
 
 ---
 
 ## Conclusion
 
-These tasks provided practical experience in data analysis, customer segmentation, data cleaning, visualization, and feature engineering using Python and related data analytics tools.
+These internship tasks provided practical experience in data analysis, exploratory data analysis, customer segmentation, data cleaning, visualization, normalization, and feature engineering using Python and related data analytics tools.
+
+The projects demonstrate the complete process of working with datasets, from data preparation and analysis to generating meaningful insights and creating analysis-ready data.
