@@ -100,3 +100,39 @@ To clean and transform a messy retail sales dataset into a structured and analys
 These internship tasks provided practical experience in data analysis, exploratory data analysis, customer segmentation, data cleaning, visualization, normalization, and feature engineering using Python and related data analytics tools.
 
 The projects demonstrate the complete process of working with datasets, from data preparation and analysis to generating meaningful insights and creating analysis-ready data.
+
+
+---
+
+## Task 4 - Predicting House Prices with Linear Regression
+
+### Objective
+
+To predict house prices based on different housing features using Linear Regression.
+
+### Work Performed
+
+- Data loading and inspection
+- Data cleaning
+- Exploratory Data Analysis
+- Feature selection
+- Train-test split
+- Linear Regression model building
+- House price prediction
+- Model evaluation
+- Actual vs Predicted price visualization
+
+### Model Evaluation
+
+The model was evaluated using:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+### Files
+
+- `PHP_with_linear_regression.ipynb`
+- `housing dataset for task 4.csv`
+- `README.md`
